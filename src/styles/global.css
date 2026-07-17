@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+#signup-btn,
+#login-btn {
+  width: 70px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.signup-form h2,
+.login-form h2 {
+  text-align: center;
+  margin: 20px;
+  color: blue;
+}
+
+.signup-form form,
+.login-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#signup,
+#login {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form input {
+  height: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #007bff;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: yellow;
+}
+
+/* Dashboard */
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 8px 0;
+}
+
+.view-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-btn:hover {
+  background: #0056b3;
+}
+
+/* Product Details */
+
+.product-details {
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-details img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+.product-details h2 {
+  margin: 15px 0;
+}
+
+.product-details p {
+  margin: 10px 0;
+}

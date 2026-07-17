@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "name": "Ryan Cooper",
+      "email": "ryan@bmw.com",
+      "phone": "08618230636",
+      "password": "4546565",
+      "id": "UmnK1s6bcMc"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "iPhone 13",
+      "product_price": 799000,
+      "product_category": "Electronics",
+      "product_image": "https://rukminim2.flixcart.com/image/1536/1536/ktketu80/mobile/a/j/u/iphone-13-mini-mlkc3hn-a-apple-original-imag6vp6swvmsbnn.jpeg?q=90",
+      "product_description": "The iPhone 13 is the latest smartphone from Apple, featuring a sleek design, powerful A15 Bionic chip, and advanced camera system for stunning photos and videos.",
+      "product_ratings": 5
+
+    },
+    {
+      "product_id": 2,
+      "product_name": "Samsung Galaxy S21",
+      "product_price": 699000,
+      "product_category": "Electronics",
+      "product_image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/g/o/0/galaxy-s21-fe-5g-sm-g990bzb4ins-samsung-original-imah48yrugg4sdst.jpeg?q=90",
+      "product_description": "The Samsung Galaxy S21 is a flagship smartphone with a dynamic AMOLED display, high-performance Exynos processor, and versatile camera setup for capturing professional-quality photos and videos.",
+      "product_ratings": 4.5
+    },
+    {
+      "product_id": 3,
+      "product_name": "Sony WH-1000XM4",
+      "product_price": 349000,
+      "product_category": "Electronics",
+      "product_image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/y/x/y/-enriched-transparent-original-imagz2d8fkkf5vme.png?q=90",
+      "product_description": "The Sony WH-1000XM4 is a premium wireless noise-canceling headphone that delivers exceptional sound quality, long battery life, and advanced features like adaptive sound control and touch sensor controls.",
+      "product_ratings": 4.8
+    },
+    {
+      "product_id": 4,
+      "product_name": "Dell XPS 13",
+      "product_price": 999000,
+      "product_category": "Electronics",
+      "product_image": "https://rukminim2.flixcart.com/image/1536/1536/jk01bww0/computer/x/5/z/dell-na-thin-and-light-laptop-original-imaf7fy9v5sbfsxp.jpeg?q=90",
+      "product_description": "The Dell XPS 13 is a high-performance laptop with a stunning InfinityEdge display, powerful Intel processors, and a sleek design, making it ideal for productivity and multimedia tasks.",
+      "product_ratings": 4.7
+    },
+    {
+      "product_id": 5,
+      "product_name": "Nike Air Max 270",
+      "product_price": 150000,
+      "product_category": "Fashion",
+      "product_image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/shoe/t/y/g/-watermarked-original-imahh6w8rarmwu7h.jpeg?q=90",
+      "product_description": "The Nike Air Max 270 is a stylish and comfortable sneaker that features a large Air Max unit in the heel for cushioning, a breathable mesh upper, and a sleek design for everyday wear.",
+      "product_ratings": 4.6
+    }
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
