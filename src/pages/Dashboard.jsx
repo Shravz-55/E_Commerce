@@ -9,6 +9,24 @@ const Dashboard = () => {
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
 
+  const addToCart = (product) => {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  const exists = cart.find(
+    (item) => item.product_id === product.product_id
+  );
+
+  if (exists) {
+    alert("Product already added to cart!");
+    return;
+  }
+
+  cart.push(product);
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  alert("Product added to cart successfully!");
+};
+
   useEffect(() => {
     axios
       .get("http://localhost:3000/products")
@@ -50,12 +68,21 @@ const Dashboard = () => {
                 <b>Rating:</b> ⭐ {x.product_ratings}
               </p>
 
-              <button
-                className="view-btn"
-                onClick={() => navigate(`/product/${x.product_id}`)}
-              >
-                View
-              </button>
+             <div className="button-group">
+  <button
+    className="view-btn"
+    onClick={() => navigate(`/product/${x.product_id}`)}
+  >
+    View
+  </button>
+
+  <button
+    className="cart-btn"
+    onClick={() => addToCart(x)}
+  >
+    Add to Cart
+  </button>
+</div>
             </div>
           ))}
         </div>
