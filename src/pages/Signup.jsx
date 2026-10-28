@@ -20,7 +20,7 @@ const Signup = () => {
     };
 
     axios
-      .post("http://localhost:3000/users", data)
+     .post("https://e-commerce-api-c07f.onrender.com/users", data)
       .then((res) => {
         console.log(res);
         toast.success("Signup successful");
