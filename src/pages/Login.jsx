@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     axios
-      .get("http://localhost:3000/users")
+      .get("https://e-commerce-api-c07f.onrender.com/users")
       .then((res) => {
         const users = res.data;
 
