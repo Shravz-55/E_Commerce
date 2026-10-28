@@ -14,7 +14,7 @@ const ProductDetails = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/products")
+      .get("https://e-commerce-api-c07f.onrender.com/products")
       .then((res) => {
         const foundProduct = res.data.find(
           (item) => item.product_id === Number(id)
