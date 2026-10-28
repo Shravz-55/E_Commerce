@@ -29,7 +29,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/products")
+      .get("https://e-commerce-api-c07f.onrender.com/products")
       .then((res) => {
         setProducts(res.data);
       })
